@@ -11,7 +11,7 @@ package Control_Statement;
 public class Question {
 	public static void main(String[] args) {
 
-		int b_charge = 20; //Base fare
+		int b_charge = 20;
 		int hour = 3; 
 		int final_charge;
 		
@@ -21,7 +21,7 @@ public class Question {
 			}else {
 			final_charge = (hour-1)*b_charge;
 			System.out.println("Your Parking Charge is = " + final_charge);
-			System.out.print("******************************");
+			System.out.print("**********************************");
 			}
 			
 	
