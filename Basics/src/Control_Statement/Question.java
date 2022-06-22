@@ -21,7 +21,9 @@ public class Question {
 			}else {
 			final_charge = (hour-1)*b_charge;
 			System.out.println("Your Parking Charge is = " + final_charge);
+			System.out.print("*********************U");
 			}
+			
 	
 
 }
