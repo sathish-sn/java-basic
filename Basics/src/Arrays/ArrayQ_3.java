@@ -15,13 +15,13 @@ public class ArrayQ_3 {
 
 	public static void main(String[] args) {
 		char arr[] = new char[] { 'A', 'Z', 'B', 'N', 'P', 'T', 'X', 'C' };
-		char find = 'P';
+		char find = 'S';
 		int flag = 0;
 		for (int i = 0; i < arr.length; i++) {
 			if (find == arr[i]) {
 				System.out.println(arr[i] + " found");
 				flag = 1;
-				break;
+				//break;
 			}
 
 		}
