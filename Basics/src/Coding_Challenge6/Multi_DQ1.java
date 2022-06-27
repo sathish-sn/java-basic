@@ -18,7 +18,7 @@ Write a nested for loop to print all the elements of 2-Dimensional array in abov
 
 
 
-package Arrays;
+package Coding_Challenge6;
 
 public class Multi_DQ1 {
 
