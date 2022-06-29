@@ -1,6 +1,13 @@
 package String;
 
 public class Wrapper_ex {
+	public static void printMsg(Boolean flag) {
+		if(flag) {
+			System.out.println("Good Morning");
+		}else {
+			System.out.println("Good Evening");
+		}
+	}
 
 	public static void main(String[] args) {
 		Byte num = new Byte((byte)127);
@@ -14,7 +21,8 @@ public class Wrapper_ex {
 		Boolean e = new Boolean("true");
 		Boolean e1 = new Boolean("false");
 		System.out.println(e1);
-		
+		printMsg(false);
+		 
 	}
 
 }
