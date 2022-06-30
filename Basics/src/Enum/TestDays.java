@@ -20,10 +20,29 @@ public class TestDays {
 		}
 	
 	}
+	public enum Days {
+		SUN("weekend"), 
+		MON("weekday"),
+		TUE("weekday"),
+		WED("weekday"),
+		THU("weekday"),
+		FRI("weekend"),
+		SAT("weekend");
+		private String message;
+		 Days(String message){
+			 this.message = message;
+			 
+		 }
+		 public String getMessage() {
+			 return message;
+		 }
+	}
+
 
 	public static void main(String[] args) {
 		//Days d1 = Days.valueOf("SUN");
 		//System.out.println(d1);
+		//System.out.println(Days.values(args[0]));
 		Days[] day = Days.values();
 		for(Days d : day) {
 			System.out.println(d.name()+ ":"+ getNewMessage(d));
