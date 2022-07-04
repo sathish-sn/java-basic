@@ -8,7 +8,7 @@ public class ComparableDemo {
 	public static void main(String[] args) {
 		//TreeSet<Integer> data = new TreeSet<Integer>();
 		
-				TreeSet data = new TreeSet();
+				TreeSet data = new TreeSet(new MyComparator());
 				data.add(152);
 				data.add(185);
 				data.add(254);
@@ -22,7 +22,7 @@ public class ComparableDemo {
 				System.out.println(data1);
 				data.add(500);
 				System.out.println(data);
-				//MyComparator data1=new MyComparator(data , data);
+//				MyComparator data1=new MyComparator(data , data);
 				//TreeSet data1 = new TreeSet(data.comparator());
 				//System.out.println(data1.comparator());
 				

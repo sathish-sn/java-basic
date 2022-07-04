@@ -8,7 +8,7 @@ public class ProblemNew {
 
 	public static void main(String[] args) {
 
-		String s = "((2*5+5+10/2-3";
+		String s = "((2+1)*(3+4)*(4-1)*(4/2)*(3*2)";
 		ArrayList<Integer> sum = new ArrayList<Integer>();
 		ArrayList<Integer> sub = new ArrayList<Integer>();
 		int res = 1;
@@ -22,7 +22,7 @@ public class ProblemNew {
 			if (c == '+' && c != '(' && c != ')') {
 				
 	
-				if(s.charAt(i-2) == '+') {
+				if(s.charAt(i-2) == '+' || s.charAt(i-2) == '-' || s.charAt(i-2) == '*' || s.charAt(i-2) == '/') {
 					
 					sum.remove(k);
 					 add = add + Character.getNumericValue(s.charAt(i+1));
