@@ -8,7 +8,7 @@ public class ProblemNew {
 
 	public static void main(String[] args) {
 
-		String s = "((2+1)*(3+4)*(4-1)*(4/2)*(3*2)";
+		String s = "((2+1)*(3+4)))";
 		ArrayList<Integer> sum = new ArrayList<Integer>();
 		ArrayList<Integer> sub = new ArrayList<Integer>();
 		int res = 1;
